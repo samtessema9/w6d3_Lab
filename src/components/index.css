@@ -1,0 +1,15 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#wrapper div {
+    display: flex;
+    justify-content: space-around;
+    border: solid black 3px;
+    border-radius: 10px;
+}
