@@ -8,10 +8,7 @@ const Users = () => {
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
-        .then(data => {
-            setUserData(data);
-            console.log(data);
-        })
+        .then(data => setUserData(data));
     }, [])
 
 
